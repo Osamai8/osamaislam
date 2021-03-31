@@ -1,6 +1,6 @@
 
 html{font-size:10px;-webkit-tap-highlight-color:transparent}
-body{font-family:Lato,Helvetica,Arial,sans-serif;font-size:16px;line-height:2;color:#333;background-color:#fff}button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}
+body{/*font-family:Lato,Helvetica,Arial,sans-serif;*/font-size:16px;line-height:2;color:#333;background-color:#fff}button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}
 a{color:#333;text-decoration:none}
 a:focus,a:hover{color:#0d0d0d;text-decoration:underline}
 a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
@@ -81,6 +81,7 @@ blockquote ol:last-child,blockquote p:last-child,blockquote ul:last-child{margin
 sourceMappingURL=main.4c6e144e.map*/
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Yesteryear&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
@@ -88,4 +89,3 @@ sourceMappingURL=main.4c6e144e.map*/
 	font-family: 'Yesteryear', cursive!important;
 }
 #para{font-family: 'Caveat', cursive!important;}
-
