@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 html, body{
 	background: url('./img/cover.jpg') no-repeat center center fixed;
 	height: 100%;
@@ -14,7 +18,7 @@ html, body{
 	padding: 0;
 	font-size: 30px;
 	font-style: italic;
-	font-family: 'Freestyle Script', "Forte", "Gabriola";
+	font-family: 'Mr Dafoe', cursive, "Forte", "Gabriola";
 }
 
 .navbar .fa{
@@ -29,7 +33,7 @@ h3{
 	left: 15%;
 	top: 65%;
 	font-style: italic;
-	font-family: "Forte", "Gabriola";
+	font-family: 'Yesteryear', cursive;
 }
 h5{
 	position: absolute;
@@ -38,6 +42,6 @@ h5{
 	left: 15%;
 	top: 75%;
 	font-style: italic;
-	font-family: "Forte", "Gabriola";
+	font-family: 'Caveat', cursive;
 	opacity: 0.8;
 }
