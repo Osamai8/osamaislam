@@ -1,0 +1,130 @@
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+*::-webkit-scrollbar {
+  width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+.triangle-background{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 700px 700px 0 0 ;
+	border-color: #f2f2f2 transparent transparent transparent;
+	transition: border-width 0.5s;
+}
+.triangle-background-weak{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 500px 500px 0 0;
+	border-color: #f2ced8 transparent transparent transparent;
+	transition: border-width 0.5s;
+}
+.triangle-background-strong{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 400px 400px 0 0;
+	border-color: #f2a2c0 transparent transparent transparent;
+	transition: border-width 0.5s;
+}
+.github{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 200px 200px 0 0;
+	border-color: #262626 transparent transparent transparent;
+	transition: border-width 0.5s;
+}
+.wrap{
+	position: relative;
+	height: 100%;
+}
+.wrap:hover .triangle-background{
+	border-width: 700px 0 0 0;
+}
+.wrap:hover .triangle-background-weak{
+	border-width: 0 500px 0  0;
+}
+.wrap:hover .triangle-background-strong{
+	border-width: 400px 0 0 0;
+}
+.wrap:hover .github{
+	border-width: 0 100px 0 0;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 0 200px;
+	border-color: transparent transparent #f2bbc9 transparent;
+	transition: border-width 0.5s;
+}
+.footer-two{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 300px 0;
+	border-color: transparent transparent #333 transparent;
+	transition: border-width 0.5s;
+}
+.wrap:hover .footer-two{
+	border-width:0 0 300px 300px;
+}
+.wrap:hover .footer{
+	border-width: 0 0 200px 200px;
+}
+.pop{
+	position: absolute;
+	top: 45%;
+	left: 30%;
+	
+
+}
+.pop i{
+	color: #f2a2c0;
+	border: 2px solid #f2a2c0;
+	text-decoration: none;
+	border-radius: 50%;
+	padding: 1rem;
+	margin: 2rem;
+
+}
+.pop i:hover{
+	background: #f2a2c0;
+	color: white;
+	
+}

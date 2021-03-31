@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="music.css">
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+	<h2>Music Player</h2>
+	<div class="music-container" id="music-container">
+		<div class="music-info">
+			<h4 id="title">Baba Yaga - Karma</h4>
+			<!-- <h5 id="artist">Karma</h5> -->
+			<div id="progress-container">
+				<div id="progress"></div>
+			</div>
+		</div>
+
+		<audio src = "./karma.mp3" id="audio"></audio>
+
+		<div class="image-container">
+			<img src="./karma.jpg" id="cover">
+		</div>
+
+		<div class="navigation">
+			<button type="button backward" id="prev" class="action-btn">
+				<i class="fas fa-backward"></i>
+			</button>
+			<button type="button play" id="play" class="action-btn action-btn-big">
+				<i class="fas fa-play"></i>
+			</button>
+			<button id="next" class="action-btn">
+				<i class="fas fa-forward"></i>
+			</button>
+		</div>
+	</div>
+	<!-- <script type="text/javascript" src="music.js"></script> -->
+	<script type="text/javascript" src="music.js"></script>
+
+</body>
+</html>

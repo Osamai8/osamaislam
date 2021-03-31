@@ -1,0 +1,40 @@
+html, body{
+	margin: 0!important;
+	height: 100%!important;
+	width: 100%!important;
+	-webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+} 
+.navbar-text{
+	text-decoration: none!important;
+	color: #FFF!important;
+	margin: 0!important;
+	padding: 0px 10px!important;
+	font-size: 30px!important;
+	font-style: italic!important;
+	font-family: 'Freestyle Script', "Forte", "Gabriola"!important;
+}
+
+.navbar .fa{
+	color: #fff!important;
+	font-size: 30px!important;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+*::-webkit-scrollbar {
+  width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
