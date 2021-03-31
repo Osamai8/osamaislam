@@ -10,20 +10,31 @@ html, body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-} 
+}
 .navbar-text{
-	text-decoration: none;
+	text-decoration: none!important;
 	color: #FFF!important;
-	margin: 0;
-	padding: 0;
-	font-size: 30px;
-	font-style: italic;
-	font-family: 'Mr Dafoe', cursive, "Forte", "Gabriola";
+	margin: 0!important;
+	padding: 0px 10px 0px 0px!important;
+	font-size: 22px!important;
+	font-style: italic!important;
+	font-family: 'Mr Dafoe', cursive, "Forte", "Gabriola"!important;
 }
 
 .navbar .fa{
-	color: #FFF;
-	font-size: 30px;
+	color: #fff!important;
+	font-size: 30px!important;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+*::-webkit-scrollbar {
+  width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 h3{
