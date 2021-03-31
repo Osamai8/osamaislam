@@ -80,3 +80,12 @@ blockquote ol:last-child,blockquote p:last-child,blockquote ul:last-child{margin
 .list-icons li{float:left;margin-right:5px}
 sourceMappingURL=main.4c6e144e.map*/
 
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+#title{
+	font-family: 'Yesteryear', cursive!important;
+}
+#para{font-family: 'Caveat', cursive!important;}
+
