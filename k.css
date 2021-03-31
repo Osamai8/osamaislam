@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 .masonry {
   columns: 4;
   column-gap: 16px;
@@ -17,6 +18,9 @@
   display: inline-block;
   margin-bottom: 16px;
   position: relative;
+  transition: all 1.2s;
+
+  z-index: 4;
 }
 .masonry .grid:before {
   border-radius: 5px;
@@ -35,6 +39,7 @@
 .masonry .grid__title {
   font-size: 28px;
   font-weight: bold;
+   font-family: 'Caveat', cursive;
   margin: 0px 0px 10px 0px;
 }
 .masonry .grid__author {
@@ -66,6 +71,9 @@
   padding: 5px 15px;
   margin-bottom: 5px;
 }
+.grid:hover{
+  transform: scale(0.92)
+}
 
 .mt-auto {
   margin-top: auto;
@@ -73,20 +81,14 @@
 .line{
   margin: 0;
   padding: 0;
-  height: 10rem;
-  
+  height: 5rem;  
   width: 100%;
-
-}
-.line{
   background-color: black;
-  height: 10rem;
-  width: 100%;
 }
 p{
   font-style: italic;
-  font-family: "Gabriola";
-  padding: 2rem 2rem;
+  font-family: 'Caveat', cursive;
+  padding: 1rem 5rem;
   color: white;
   font-size: 29px;
   text-align: end;
